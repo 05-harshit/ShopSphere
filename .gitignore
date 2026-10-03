@@ -2,3 +2,29 @@
 __pycache__/
 .ipynb_checkpoints/
 .env
+
+
+# Python compiled files
+*.py[cod]
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Local virtual environments
+venv/
+ENV/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Project datasets - keep local
+data/raw/
+data/processed/
+
+# Environment secrets
+.env
